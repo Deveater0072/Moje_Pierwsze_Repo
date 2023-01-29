@@ -1,3 +1,308 @@
-body{
-    background-color: blue;
+body {
+  font-family:Arial, Helvetica, sans-serif ;
+  margin: 30px;
+  font-size: 18px;
+}
+.div1 {
+  position: relative;
+  display: flex;
+  height: 35px;
+  justify-content: space-between;
+}
+.div1 > input {
+  position: relative;
+  width: 400px;
+  height: 40px;
+  margin: 0px 0px 0px 50px;
+  border-radius: 8px;
+  border: 1px solid;
+}
+/*Nie bardzo potrafilem wstawic lupe do inputa*/
+.Lupa {
+  right: 10px;
+  border: 1px solid;
+  border-radius: 8px;
+}
+.div1 button:nth-of-type(2) {
+  box-sizing: border-box;
+  background: #490df4;
+  color: white;
+  border: 2px solid #222426;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+}
+.prawa {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.h1 {
+  border: 2px solid #222426;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+  display: flex;
+}
+.div2 {
+  border-radius: 10px;
+  height: 100px;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.div2 button,
+.select {
+  font-size: 18px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  margin-left: 10px;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.div2 button img{
+  margin-right: 5px;
+}
+.div2 button:nth-child(1){
+  box-shadow: -5px 0px 2px 0px 
+  #31E8FF;
+}
+.div2 button:nth-child(2){
+ box-shadow: -5px 0px 2px 0px 
+  #00FF93
+}
+.div2 button:nth-child(3){
+ box-shadow: -5px 0px 2px 0px 
+  #8415FF;
+}
+.div2 button:nth-child(4){
+ box-shadow: -5px 0px 2px 0px 
+ #FD4DC7;
+}
+.div2 button:nth-child(5){
+ box-shadow: -5px 0px 2px 0px 
+ #FF8227;
+}
+.div2 button:nth-child(6){
+ box-shadow: -5px 0px 2px 0px 
+ #FDFF00;
+}
+.item {
+  display: flex;
+  align-items: center;
+}
+.select2 {
+  position: relative;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  left: 10px;
+  margin-left: 150px;
+  margin-right: 10px;
+  height: 40px;
+  width: 150px;
+  display: flex;
+}
+.div3 {
+  display: flex;
+  border-radius: 10px;
+  margin: 10px;
+  margin: 40px 10px;
+}
+.batony {
+  font-size: 18px;
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+}
+.item2 {
+  border: 1px solid;
+  border-radius: 10px;
+  width: 45px;
+  height: 45px;
+}
+.select3 {
+  font-size: 16px;
+  border-radius: 10px;
+  width: 80px;
+  height: 45px;
+}
+.Remote {
+  display: flex;
+  width: 700px;
+  justify-content: flex-end;
+}
+.Remote > button {
+  font-size: 18px;
+  width: 160px;
+  border: 1px solid;  
+  border-radius: 10px;
+  margin-left: 20px; 
+}
+.div4 {
+  position: relative;
+  display: flex;
+  margin: 20px 0px;
+}
+.filters_logo{
+    display: flex;
+    left: 0px;
+    align-items: center;
+}
+.filters_logo>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.filters_logo>div>b{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.inne{
+    position: absolute;
+    display: flex;
+    right: 0px;
+    align-items: center;
+}
+.inne>div>b,div>a{
+    margin-right: 10px;
+}
+.img{
+    margin-right: 30px;
+}
+.lista{
+    display: flex;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.lista>img{
+    display: flex;
+    justify-content:center ;
+    align-self: center;
+}
+.main{
+padding-left: 5px;
+overflow: scroll;
+overflow-x: hidden;
+}
+.div5, .div6, .div7, .div8{
+  background-color: white;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 90px;
+  margin-bottom: 20px;
+}
+.background{
+  position:relative; 
+  z-index: -1;
+  top: 3px;
+  left: -5px;
+  width: 20px;
+  height: 86px;
+  background-color: #8415FF;
+  border: 1px solid black;
+  border-radius: 13px;
+}
+.div6 .background:nth-child(1){
+  background-color:#FF8227 ;
+}
+.div7 .background:nth-child(1){
+  background-color:#FDFF00 ;
+}
+.div8 .background:nth-child(1){
+  background-color:#00FF93 ;
+}
+.napisy{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.toptext{
+    position: absolute;
+    display: flex;
+    top: 20px;
+    left: 30px;   
+    width: 400px; 
+}
+.remote_logo{
+    margin-left: 10px;
+}
+.righttext{
+    color: #490df4 ;
+    position: absolute;
+    display: flex;
+    right: 30px;
+    top: 20px;
+}
+.bottomleft{
+    position: absolute;
+    display: flex;
+    left: 30px;
+    top: 45px;  
+}
+.bottomright{
+    position: absolute;
+    display: flex;
+    justify-content:flex-end;
+    right: 30px;
+    top: 45px;
+    width: 200px;
+}
+.bottomright>div>button{
+    display: flex;
+    border: 0px;
+    border-radius: 5px;  
+}
+.apply_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 15%; 
+}
+.apply_1>button{
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;   
+}
+.div6 {
+  display: flex;
+  background-color: white;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 90px;
+}
+.div7 {
+  display: flex;
+  background-color: white;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 90px;
+}
+.div8 {
+  display: flex;
+  background-color: white;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 90px;
 }
