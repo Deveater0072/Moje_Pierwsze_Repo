@@ -206,9 +206,21 @@ body {
     align-self: center;
 }
 .main{
+height: 500px;
 padding-left: 5px;
 overflow: scroll;
 overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555555;
 }
 .div5, .div6, .div7, .div8{
   background-color: white;
